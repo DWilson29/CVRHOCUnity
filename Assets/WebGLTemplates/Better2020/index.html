@@ -74,6 +74,10 @@
 #endif
       loadingCover.style.display = "";
 
+      canvas.style.width = "100%";
+      canvas.style.height = "100%";
+      canvas.style.position = "fixed";
+
       const script = document.createElement("script");
       script.src = loaderUrl;
       script.onload = () => {
